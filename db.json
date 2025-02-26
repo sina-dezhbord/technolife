@@ -1,0 +1,1753 @@
+{
+  "banner": [
+    {
+      "img1": "./media/header/1.webp"
+    },
+    {
+      "img2": "./media/header/1mb.png"
+    }
+  ],
+  "logo": "./media/header/2-1.svg",
+  "logoMenu": "./media/fav/2.svg",
+
+  "menu": [
+    {
+      "text": "دسته بندی محصولات",
+      "icon": "fas fa-bars",
+      "color": "text-[#666666]",
+      "subMenu": [
+        {
+          "text": "موبایل",
+          "img": "./media/header/1.svg",
+          "li": [
+            {
+              "text": "گوشی موبایل"
+            },
+            {
+              "text": "گوشی بر اساس عملکرد"
+            },
+            {
+              "text": "گوشی بر اساس حافظه"
+            },
+            {
+              "text": "گوشی بر اساس قیمت"
+            },
+            {
+              "text": "گوشی بر اساس دوربین"
+            },
+            {
+              "text": "گوشی بر اساس رده بندی"
+            },
+            {
+              "text": "لوازم جانبی موبایل"
+            },
+            {
+              "text": "قطعات موبایل"
+            }
+          ]
+        },
+        {
+          "text": "لپتاب و تبلت",
+          "img": "./media/header/2.svg",
+          "li": [
+            {
+              "text": "لپ تاپ"
+            },
+            {
+              "text": "لپ تاب بر اساس قیمت"
+            },
+            {
+              "text": "لپتاب بر اساس کاربرد"
+            },
+            {
+              "text": "لوازم و قطعات لپ تاب"
+            },
+            {
+              "text": "تبلت و کتابخوان"
+            }
+          ]
+        },
+        {
+          "text": "هدفون و هندزفری",
+          "img": "./media/header/3.svg",
+          "li": [
+            {
+              "text": "هدفون"
+            },
+            {
+              "text": "هندزفری"
+            },
+            {
+              "text": "هدست"
+            }
+          ]
+        },
+        {
+          "text": "ساعت و بند هوشمند",
+          "img": "./media/header/4.svg",
+          "li": [
+            {
+              "text": "ساعت هوشمند"
+            },
+            {
+              "text": "لوازم جانبی ساعت هوشمند"
+            },
+            {
+              "text": "ساعت هوشمند بر اساس کاربرد"
+            },
+            {
+              "text": "ساعت هوشمند بر اساس طراحی"
+            },
+            {
+              "text": "ساعت هوشمند بر اساس قیمت"
+            },
+            {
+              "text": "مچ بند هوشمند"
+            },
+            {
+              "text": "گجت پوشیدنی"
+            }
+          ]
+        },
+        {
+          "text": "کامپیوتر و اداری",
+          "img": "./media/header/5.svg",
+          "li": [
+            {
+              "text": "کامپیوتر"
+            },
+            {
+              "text": "مانیتور"
+            },
+            {
+              "text": "تجهیزات ذخیره سازی"
+            },
+            {
+              "text": "قطعات کامپیوتر"
+            },
+            {
+              "text": "ماشین اداری"
+            },
+            {
+              "text": "لوازم جانبی کامپیوتر"
+            }
+          ]
+        },
+        {
+          "text": "شبکه و ارتباطات",
+          "img": "./media/header/6.svg",
+          "li": [
+            {
+              "text": "تجهیزات شبکه"
+            },
+            {
+              "text": "مودم،روتر"
+            },
+            {
+              "text": "دوربین مدار بسته"
+            }
+          ]
+        },
+        {
+          "text": "لوازم خانگی",
+          "img": "./media/header/7.svg",
+          "li": [
+            {
+              "text": "یخچال فریزر"
+            },
+            {
+              "text": "شستشو و نظافت"
+            },
+            {
+              "text": "نوشیدنی ساز"
+            },
+            {
+              "text": "پخت و پز"
+            },
+            {
+              "text": "تهویه ،سرمایش و گرمایش"
+            },
+            {
+              "text": "چرخ خیاطی"
+            },
+            {
+              "text": "صوتی و تصویری"
+            },
+            {
+              "text": "دکوراسیون"
+            }
+          ]
+        },
+        {
+          "text": "صوتی تصویری",
+          "img": "./media/header/8.svg",
+          "li": [
+            {
+              "text": "تلوزیون"
+            },
+            {
+              "text": "اسپیکر"
+            },
+            {
+              "text": "ساندبار"
+            },
+            {
+              "text": "دوربین"
+            },
+            {
+              "text": "تجهیزات استودیو"
+            },
+            {
+              "text": "پخش کننده چند رسانه ای"
+            },
+            {
+              "text": "دستیار صوتی"
+            }
+          ]
+        },
+        {
+          "text": "گیمینگ",
+          "img": "./media/header/9.svg",
+          "li": [
+            {
+              "text": "کنسول بازی"
+            },
+            {
+              "text": "دسته بازی"
+            },
+            {
+              "text": "بازی"
+            },
+            {
+              "text": "لوازم جانبی کنسول بازی"
+            },
+            {
+              "text": "تجهیزات گیمینگ"
+            },
+            {
+              "text": "سیستم گیمینگ"
+            }
+          ]
+        },
+        {
+          "text": "ابزارآلات و تجهیرات",
+          "img": "./media/header/10.svg",
+          "li": [
+            {
+              "text": "ابزار برقی"
+            },
+            {
+              "text": "ابزار شارژی"
+            },
+            {
+              "text": "ابزار دستی"
+            },
+            {
+              "text": "ابزار بادی"
+            },
+            {
+              "text": "ابزار جوش و برش"
+            },
+            {
+              "text": "ابزار آلات روشنایی"
+            },
+            {
+              "text": "تجهیزات ایمنی"
+            },
+            {
+              "text": "ابزار الات اندازه گیری"
+            },
+            {
+              "text": "سایر ابزار آلات"
+            },
+            {
+              "text": "رونیکس"
+            },
+            {
+              "text": "آروا"
+            },
+            {
+              "text": "توسن"
+            }
+          ]
+        },
+        {
+          "text": "طلا و جواهرات،ساعت",
+          "img": "./media/header/11.svg",
+          "li": [
+            {
+              "text": "سکه طلا"
+            },
+            {
+              "text": "طلای آب شده"
+            },
+            {
+              "text": "شمش طلا"
+            },
+            {
+              "text": "زیورآلات طلا"
+            },
+            {
+              "text": "طاعت مچی"
+            }
+          ]
+        },
+        {
+          "text": "زیبایی و سلامت",
+          "img": "./media/header/12.svg",
+          "li": [
+            {
+              "text": "لوازم شخصی برقی"
+            },
+            {
+              "text": "ابزار سلامتی"
+            }
+          ]
+        },
+        {
+          "text": "خانه هوشمند",
+          "img": "./media/header/13.svg",
+          "li": [
+            {
+              "text": "روشنایی هوشمند"
+            },
+            {
+              "text": "دستگیره هوشمند"
+            },
+            {
+              "text": "زنگ درب هوشمند"
+            }
+          ]
+        },
+        {
+          "text": "کارت هدیه",
+          "img": "./media/header/14.svg",
+          "li": [
+            {
+              "text": "کارت هدیه فیزیکی"
+            }
+          ]
+        },
+        {
+          "text": "ورزش و سفر",
+          "img": "./media/header/15.svg",
+          "li": [
+            {
+              "text": "دوچرخه"
+            },
+            {
+              "text": "اسکوتر برقی"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "تکنو آف",
+      "icon": "fa-solid fa-percent",
+      "color": "text-[#666666]"
+    },
+    {
+      "text": "خرید سازمانی",
+      "icon": "fa-solid fa-basket-shopping",
+      "color": "text-[#666666]"
+    },
+    {
+      "text": "کارت هدیه",
+      "icon": "fa-solid fa-gift",
+      "color": "text-[#666666]"
+    },
+    {
+      "text": "خرید اقساطی",
+      "icon": "fa-solid fa-wallet",
+      "color": "text-[#666666]"
+    },
+    {
+      "text": "خرید طلای دیجیتال",
+      "icon": "fa-solid fa-coins"
+    },
+    {
+      "text": "فروشنده شو",
+      "icon": "hidden"
+    }
+  ],
+
+  "submenu": [
+    {
+      "img": "./media/header/1.svg",
+      "text": "موبایل",
+      "li": [
+        {
+          "text": "گوشی موبایل"
+        },
+        {
+          "text": "گوشی بر اساس عملکرد"
+        },
+        {
+          "text": "گوشی بر اساس حافظه"
+        },
+        {
+          "text": "گوشی بر اساس قیمت"
+        },
+        {
+          "text": "گوشی بر اساس دوربین"
+        },
+        {
+          "text": "گوشی بر اساس رده بندی"
+        },
+        {
+          "text": "لوازم جانبی موبایل"
+        },
+        {
+          "text": "قطعات موبایل"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/2.svg",
+      "text": "لپتاب و تبلت",
+      "li": [
+        {
+          "text": "لپ تاپ"
+        },
+        {
+          "text": "لپ تاب بر اساس قیمت"
+        },
+        {
+          "text": "لپتاب بر اساس کاربرد"
+        },
+        {
+          "text": "لوازم و قطعات لپ تاب"
+        },
+        {
+          "text": "تبلت و کتابخوان"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/3.svg",
+      "text": "هدفون و هندزفری",
+      "li": [
+        {
+          "text": "هدفون"
+        },
+        {
+          "text": "هندزفری"
+        },
+        {
+          "text": "هدست"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/4.svg",
+      "text": "ساعت و بند هوشمند",
+      "li": [
+        {
+          "text": "ساعت هوشمند"
+        },
+        {
+          "text": "لوازم جانبی ساعت هوشمند"
+        },
+        {
+          "text": "ساعت هوشمند بر اساس کاربرد"
+        },
+        {
+          "text": "ساعت هوشمند بر اساس طراحی"
+        },
+        {
+          "text": "ساعت هوشمند بر اساس قیمت"
+        },
+        {
+          "text": "مچ بند هوشمند"
+        },
+        {
+          "text": "گجت پوشیدنی"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/5.svg",
+      "text": "کامپیوتر و اداری",
+      "li": [
+        {
+          "text": "کامپیوتر"
+        },
+        {
+          "text": "مانیتور"
+        },
+        {
+          "text": "تجهیزات ذخیره سازی"
+        },
+        {
+          "text": "قطعات کامپیوتر"
+        },
+        {
+          "text": "ماشین اداری"
+        },
+        {
+          "text": "لوازم جانبی کامپیوتر"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/6.svg",
+      "text": "شبکه و ارتباطات",
+      "li": [
+        {
+          "text": "تجهیزات شبکه"
+        },
+        {
+          "text": "مودم،روتر"
+        },
+        {
+          "text": "دوربین مدار بسته"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/7.svg",
+      "text": "لوازم خانگی",
+      "li": [
+        {
+          "text": "یخچال فریزر"
+        },
+        {
+          "text": "شستشو و نظافت"
+        },
+        {
+          "text": "نوشیدنی ساز"
+        },
+        {
+          "text": "پخت و پز"
+        },
+        {
+          "text": "تهویه ،سرمایش و گرمایش"
+        },
+        {
+          "text": "چرخ خیاطی"
+        },
+        {
+          "text": "صوتی و تصویری"
+        },
+        {
+          "text": "دکوراسیون"
+        }
+      ]
+    },
+
+    {
+      "img": "./media/header/8.svg",
+      "text": "صوتی تصویری",
+      "li": [
+        {
+          "text": "تلوزیون"
+        },
+        {
+          "text": "اسپیکر"
+        },
+        {
+          "text": "ساندبار"
+        },
+        {
+          "text": "دوربین"
+        },
+        {
+          "text": "تجهیزات استودیو"
+        },
+        {
+          "text": "پخش کننده چند رسانه ای"
+        },
+        {
+          "text": "دستیار صوتی"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/9.svg",
+      "text": "گیمینگ",
+      "li": [
+        {
+          "text": "کنسول بازی"
+        },
+        {
+          "text": "دسته بازی"
+        },
+        {
+          "text": "بازی"
+        },
+        {
+          "text": "لوازم جانبی کنسول بازی"
+        },
+        {
+          "text": "تجهیزات گیمینگ"
+        },
+        {
+          "text": "سیستم گیمینگ"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/10.svg",
+      "text": "ابزارآلات و تجهیرات",
+      "li": [
+        {
+          "text": "ابزار برقی"
+        },
+        {
+          "text": "ابزار شارژی"
+        },
+        {
+          "text": "ابزار دستی"
+        },
+        {
+          "text": "ابزار بادی"
+        },
+        {
+          "text": "ابزار جوش و برش"
+        },
+        {
+          "text": "ابزار آلات روشنایی"
+        },
+        {
+          "text": "تجهیزات ایمنی"
+        },
+        {
+          "text": "ابزار الات اندازه گیری"
+        },
+        {
+          "text": "سایر ابزار آلات"
+        },
+        {
+          "text": "رونیکس"
+        },
+        {
+          "text": "آروا"
+        },
+        {
+          "text": "توسن"
+        }
+      ]
+    },
+
+    {
+      "img": "./media/header/11.svg",
+      "text": "طلا و جواهرات،ساعت",
+      "li": [
+        {
+          "text": "سکه طلا"
+        },
+        {
+          "text": "طلای آب شده"
+        },
+        {
+          "text": "شمش طلا"
+        },
+        {
+          "text": "زیورآلات طلا"
+        },
+        {
+          "text": "طاعت مچی"
+        }
+      ]
+    },
+
+    {
+      "img": "./media/header/12.svg",
+      "text": "زیبایی و سلامت",
+      "li": [
+        {
+          "text": "لوازم شخصی برقی"
+        },
+        {
+          "text": "ابزار سلامتی"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/13.svg",
+      "text": "خانه هوشمند",
+      "li": [
+        {
+          "text": "روشنایی هوشمند"
+        },
+        {
+          "text": "دستگیره هوشمند"
+        },
+        {
+          "text": "زنگ درب هوشمند"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/14.svg",
+      "text": "کارت هدیه",
+      "li": [
+        {
+          "text": "کارت هدیه فیزیکی"
+        }
+      ]
+    },
+    {
+      "img": "./media/header/15.svg",
+      "text": "ورزش و سفر",
+      "li": [
+        {
+          "text": "دوچرخه"
+        },
+        {
+          "text": "اسکوتر برقی"
+        }
+      ]
+    }
+  ],
+  "mbMenu": [
+    {
+      "text": "فروشنده شو",
+      "icon": "fas fa-store"
+    },
+    {
+      "text": "خرید اقساطی",
+      "icon": "fa-solid fa-wallet"
+    },
+    {
+      "text": "خرید طلای دیجیتال",
+      "icon": "fa-solid fa-coins"
+    },
+    {
+      "text": "خرید سازمانی",
+      "icon": "fa-solid fa-basket-shopping"
+    },
+    {
+      "text": "کارت هدیه",
+      "icon": "fa-solid fa-gift"
+    }
+  ],
+
+  "swiperOne": [
+    {
+      "img1": "./media/body/sec1/1.webp",
+      "img2": "./media/body/sec1/1mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/2.webp",
+      "img2": "./media/body/sec1/2mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/3.webp",
+      "img2": "./media/body/sec1/3mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/4.webp",
+      "img2": "./media/body/sec1/4mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/5.webp",
+      "img2": "./media/body/sec1/5mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/6.webp",
+      "img2": "./media/body/sec1/6mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/7.webp",
+      "img2": "./media/body/sec1/7mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/8.webp",
+      "img2": "./media/body/sec1/8mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/9.webp",
+      "img2": "./media/body/sec1/9mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/10.webp",
+      "img2": "./media/body/sec1/10mb.webp"
+    },
+    {
+      "img1": "./media/body/sec1/11.webp",
+      "img2": "./media/body/sec1/11mb.webp"
+    }
+  ],
+  "swiperTwo": [
+    {
+      "img": "./media/body/sec2/1.webp",
+      "text": "لوازم خانگی"
+    },
+    {
+      "img": "./media/body/sec2/2.webp",
+      "text": "لپتاب و تجهیزات"
+    },
+    {
+      "img": "./media/body/sec2/3.webp",
+      "text": "گوشی موبایل"
+    },
+    {
+      "img": "./media/body/sec2/4.webp",
+      "text": "گوشی دکمه ای"
+    },
+    {
+      "img": "./media/body/sec2/5.webp",
+      "text": "لوازم جانبی"
+    },
+    {
+      "img": "./media/body/sec2/6.webp",
+      "text": "ساعت و بند هوشمند"
+    },
+    {
+      "img": "./media/body/sec2/8.webp",
+      "text": "گیمینگ"
+    },
+    {
+      "img": "./media/body/sec2/9.webp",
+      "text": "تبلت"
+    },
+    {
+      "img": "./media/body/sec2/10.webp",
+      "text": "هدفون و هندزفری"
+    },
+    {
+      "img": "./media/body/sec2/11.webp",
+      "text": "اسپیکر"
+    },
+    {
+      "img": "./media/body/sec2/12.webp",
+      "text": "پاوربانک"
+    },
+    {
+      "img": "./media/body/sec2/13.webp",
+      "text": "طلا و جواهرات"
+    },
+    {
+      "img": "./media/body/sec2/14.webp",
+      "text": "ابزارآلات و تجهیرات"
+    },
+    {
+      "img": "./media/body/sec2/15.webp",
+      "text": "ماشین اداری"
+    },
+    {
+      "img": "./media/body/sec2/16.webp",
+      "text": "کامپیوتر و تجهیزات "
+    },
+    {
+      "img": "./media/body/sec2/17.webp",
+      "text": "شبکه و ارتباطات"
+    },
+    {
+      "img": "./media/body/sec2/18.webp",
+      "text": "تلوزیون"
+    }
+  ],
+  "swiperThree": [
+    {
+      "img": "./media/body/sec3/1.webp",
+      "name": "گوشی موبایل آنر مدل X5b Plus 4G ظرفیت 128 گیگابایت رم 4 گیگابایت",
+      "fPrice": "6,490,000 تومان",
+      "percent": "8%",
+      "lPrice": "6,990,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/2.webp",
+      "name": "گوشی موبايل شیائومی مدل Redmi Note 14 Pro Plus 5G ظرفیت 512 گیگابایت رم 12 گیگابایت",
+      "fPrice": " 32,800,000 تومان",
+      "percent": " 3% ",
+      "lPrice": " 33,500,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/3.webp",
+      "name": "تبلت سامسونگ مدل Galaxy Tab A9 Plus 5G ظرفیت 128 گیگابایت رم 8 گیگابایت (SM-X216)",
+      "fPrice": " 18,249,000 تومان",
+      "percent": " 5% ",
+      "lPrice": " 19,200,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/4.webp",
+      "name": "لپ تاپ لنوو 16 اینچی مدل Legion Pro 5 R9 7945HX 32GB 1TB RTX4060",
+      "fPrice": " 114,000,000 تومان",
+      "percent": " 9% ",
+      "lPrice": " 124,000,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/5.webp",
+      "name": "پلی استیشن 5 اسلیم دیسک خور اروپا",
+      "fPrice": " 39,299,000 تومان",
+      "percent": " 2% ",
+      "lPrice": " 39,999,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/6.webp",
+      "name": "تلویزیون ال ای دی نکسار مدل NTV-U50C614S سایز 50 اینچ",
+      "fPrice": " 15,650,000 تومان",
+      "percent": " 19% ",
+      "lPrice": " 19,290,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/7.webp",
+      "name": "مانیتور سامسونگ مدل QM32C سایز 32 اینچ",
+      "fPrice": " 34,999,000 تومان",
+      "percent": " 8% ",
+      "lPrice": " 37,999,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/8.webp",
+      "name": "هارد اس اس دی اکسترنال سیگیت مدل Seagate One Touch ظرفیت 1 ترابایت",
+      "fPrice": " 5,300,000 تومان",
+      "percent": " 11% ",
+      "lPrice": " 5,900,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/9.webp",
+      "name": "پرینتر کانن مدل imageclass MF3010 لیزری چندکاره ",
+      "fPrice": " 15,250,000 تومان",
+      "percent": " 5% ",
+      "lPrice": " 15,900,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec3/10.webp",
+      "name": "هندزفری بلوتوثی مدل ایرپاد پرو نویز کنسلینگ",
+      "fPrice": " 790,000 تومان",
+      "percent": " 21% ",
+      "lPrice": " 990,000 تومان",
+      "flag": true
+    }
+  ],
+  "secFour": [
+    {
+      "img": "./media/body/sec4/1.webp"
+    },
+    {
+      "img": "./media/body/sec4/2.webp"
+    },
+    {
+      "img": "./media/body/sec4/3.webp"
+    }
+  ],
+  "swiperFive": [
+    {
+      "img": "./media/body/sec5/1.webp",
+      "name": "گوشی موبایل هوآوی مدل Pura 70 ظرفیت 256 گیگابایت رم 12 گیگابایت",
+      "fPrice": "50,899,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/2.webp",
+      "name": "گوشی موبایل اپل مدل iPhone 13 CH/A Not Active ظرفیت 128 گیگابایت - رم 4 گیگابایت",
+      "fPrice": " 53,499,000 تومان",
+      "percent": " 0% ",
+      "lPrice": " 000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/3.webp",
+      "name": "گوشی موبايل ناتینگ مدل Phone 2 5G ظرفیت 512 گیگابایت رم 12 گیگابایت",
+      "fPrice": " 18,249,000 تومان",
+      "percent": " 2% ",
+      "lPrice": " 46,490,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec5/4.webp",
+      "name": "گوشی موبایل سامسونگ Galaxy S24 Ultra 5G ظرفیت 512 گیگابایت رم 12 گیگابایت - ویتنام",
+      "fPrice": " 97,900,000 تومان",
+      "percent": " 0% ",
+      "lPrice": " 000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/5.webp",
+      "name": "گوشی موبایل آنر مدل 90 ظرفیت 256 گیگابایت رم 8 گیگابایت",
+      "fPrice": " 22,690,000 تومان",
+      "percent": " 0% ",
+      "lPrice": " 000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/6.webp",
+      "name": "گوشی موبایل اپل مدل iPhone 13 Pro RK/A نات اکتیو تک سیم کارت ظرفیت 512 گیگابایت رم 6 گیگابایت",
+      "fPrice": " 75,620,000 تومان",
+      "percent": " 7% ",
+      "lPrice": " 80,630,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec5/7.webp",
+      "name": "گوشی موبايل شیائومی مدل 14T ظرفیت 256 گیگابایت رم 12 گیگابایت",
+      "fPrice": " 31,699,000 تومان",
+      "percent": " 4% ",
+      "lPrice": " 32,699,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec5/8.webp",
+      "name": "گوشی موبايل شیائومی مدل 14T Pro ظرفیت 512 گیگابایت رم 12 گیگابایت",
+      "fPrice": " 45,200,000 تومان",
+      "percent": " 0% ",
+      "lPrice": " 000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/9.webp",
+      "name": "گوشی موبايل شیائومی مدل 14 5G ظرفیت 512 گیگابایت رم 12 گیگابایت",
+      "fPrice": " 53,300,000 تومان",
+      "percent": " 0% ",
+      "lPrice": " 000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec5/10.webp",
+      "name": "گوشی موبايل سامسونگ مدل Galaxy S24 FE ظرفیت 256 گیگابایت رم 8 گیگابایت - ویتنام",
+      "fPrice": " 40,299,000 تومان",
+      "percent": " 4% ",
+      "lPrice": " 41,899,000 تومان",
+      "flag": true
+    }
+  ],
+  "BestMobiles": [
+    {
+      "img": "./media/body/sec6/1.webp",
+      "text": "سامسونگ"
+    },
+    {
+      "img": "./media/body/sec6/2.webp",
+      "text": "پوکو"
+    },
+    {
+      "img": "./media/body/sec6/3.webp",
+      "text": "آیفون"
+    },
+    {
+      "img": "./media/body/sec6/4.webp",
+      "text": "آنر"
+    },
+    {
+      "img": "./media/body/sec6/5.webp",
+      "text": "شیائومی"
+    }
+  ],
+  "pcGif": [
+    {
+      "img": "./media/body/pcGif/1.gif"
+    }
+  ],
+  "swiperSeven": [
+    {
+      "img": "./media/body/sec7/1.webp",
+      "name": "لپ تاپ دل 15.6 اینچی مدل INSPIRON 3535 Ryzen7 7730U 16GB 512GB",
+      "fPrice": "50,499,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/2.webp",
+      "name": "لپ‌ تاپ ایسوس 17.3 اینچی مدل TUF Gaming F17 FX707VV i7 13620H 16GB 512GB RTX4060",
+      "fPrice": "82,000,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/3.webp",
+      "name": "لپ‌ تاپ ایسر 15.6 اینچی مدل Aspire 5 A515 i5 13420H 8GB 1TB",
+      "fPrice": "41,500,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/4.webp",
+      "name": "لپ تاپ لنوو 15.6 اینچی مدل LOQ Gaming R7 7435HS 16GB 512GB RTX4060",
+      "fPrice": "67,700,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/5.webp",
+      "name": "لپ تاپ اچ‌ پی 15.6 اینچی مدل Victus 15 FA0033DX i5 12450H 36GB 2TB RTX3050",
+      "fPrice": "57,000,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/6.webp",
+      "name": "لپ تاپ مایکروسافت 13.5 اینچی مدل Surface Laptop 5 i7 ۱۲۵۵U 16GB 256GB ",
+      "fPrice": "82,800,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec7/7.webp",
+      "name": "لپ تاپ مایکروسافت 12.4 اینچی مدل Surface Laptop Go 2 i5 8GB 128GB",
+      "fPrice": "41,900,000 تومان",
+      "percent": "0%",
+      "lPrice": "000,000 تومان",
+      "flag": false
+    }
+  ],
+  "BestLaptop": [
+    {
+      "img": "./media/body/sec8/1.webp",
+      "text": "ایسوس"
+    },
+    {
+      "img": "./media/body/sec8/2.webp",
+      "text": "اچ پی"
+    },
+    {
+      "img": "./media/body/sec8/3.webp",
+      "text": "مک بوک"
+    },
+    {
+      "img": "./media/body/sec8/4.webp",
+      "text": "لنوو"
+    },
+    {
+      "img": "./media/body/sec8/5.webp",
+      "text": "ایسر"
+    }
+  ],
+  "secNine": [
+    {
+      "img": "./media/body/sec9/1.webp"
+    },
+    {
+      "img": "./media/body/sec9/2.webp"
+    }
+  ],
+  "secTenOne": [
+    {
+      "text": "گوشی ساده"
+    },
+    {
+      "text": "تا 15 میلیون"
+    },
+    {
+      "text": "تا 50 میلیون"
+    },
+    {
+      "text": "تا 10 میلیون"
+    },
+    {
+      "text": "تا 30 میلیون"
+    },
+    {
+      "text": "تا 75 میلیون"
+    }
+  ],
+  "secTenTwo": [
+    {
+      "text": "گیمینگ"
+    },
+    {
+      "text": "دوربین"
+    },
+    {
+      "text": "5G"
+    },
+    {
+      "text": "باطری"
+    },
+    {
+      "text": "ضد آب"
+    },
+    {
+      "text": "شارژ سریع"
+    }
+  ],
+  "BestAirpods": [
+    {
+      "img": "./media/body/sec11/1.webp",
+      "text": "کیوسی وای"
+    },
+    {
+      "img": "./media/body/sec11/2.webp",
+      "text": "هایلو"
+    },
+    {
+      "img": "./media/body/sec11/3.webp",
+      "text": "شیائومی"
+    },
+    {
+      "img": "./media/body/sec11/4.webp",
+      "text": "اپل"
+    },
+    {
+      "img": "./media/body/sec11/5.webp",
+      "text": "سامسونگ"
+    },
+    {
+      "img": "./media/body/sec11/6.webp",
+      "text": "هوآوی"
+    },
+    {
+      "img": "./media/body/sec11/7.webp",
+      "text": "انکر"
+    }
+  ],
+  "secTwelve": [
+    {
+      "img": "./media/body/sec12/1.webp"
+    },
+    {
+      "img": "./media/body/sec12/2.webp"
+    }
+  ],
+  "swiperThirteen": [
+    {
+      "img": "./media/body/sec13/1.webp"
+    },
+    {
+      "img": "./media/body/sec13/2.webp"
+    },
+    {
+      "img": "./media/body/sec13/3.webp"
+    },
+    {
+      "img": "./media/body/sec13/4.webp"
+    },
+    {
+      "img": "./media/body/sec13/5.webp"
+    },
+    {
+      "img": "./media/body/sec13/6.webp"
+    },
+    {
+      "img": "./media/body/sec13/7.webp"
+    },
+    {
+      "img": "./media/body/sec13/8.webp"
+    },
+    {
+      "img": "./media/body/sec13/9.webp"
+    },
+    {
+      "img": "./media/body/sec13/10.webp"
+    },
+    {
+      "img": "./media/body/sec13/11.webp"
+    },
+    {
+      "img": "./media/body/sec13/12.webp"
+    },
+    {
+      "img": "./media/body/sec13/13.webp"
+    },
+    {
+      "img": "./media/body/sec13/14.webp"
+    },
+    {
+      "img": "./media/body/sec13/15.webp"
+    },
+    {
+      "img": "./media/body/sec13/16.webp"
+    },
+    {
+      "img": "./media/body/sec13/17.webp"
+    },
+    {
+      "img": "./media/body/sec13/18.webp"
+    }
+  ],
+  "swiperFourteen": [
+    {
+      "img": "./media/body/sec14/1.webp",
+      "name": " تبلت سامسونگ مدل Galaxy Tab A9 Plus 5G ظرفیت 64 گیگابایت رم 4 گیگابایت (SM-X216) ",
+      "fPrice": " 13,799,000 تومان",
+      "percent": " 5%",
+      "lPrice": " 14,400,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/2.webp",
+      "name": " هارد اس اس دی اینترنال لکسار مدل NS100 ظرفیت 128 گیگابایت ",
+      "fPrice": " 765,000 تومان",
+      "percent": " 2%",
+      "lPrice": " 780,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/3.webp",
+      "name": " پرینتر کانن مدل imageclass MF3010 لیزری چندکاره  ",
+      "fPrice": " 15,250,000 تومان",
+      "percent": " 5%",
+      "lPrice": " 15,900,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/4.webp",
+      "name": "کارت حافظه microSDHC سن دیسک مدل Ultra کلاس 10 استاندارد UHS-I A1 سرعت 120MBps ظرفیت 32 گیگابایت",
+      "fPrice": " 1,235,000 تومان",
+      "percent": " 4%",
+      "lPrice": " 1,277,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/5.webp",
+      "name": " مانیتور سامسونگ مدل LS22C310EAMXUE سایز 22 اینچ  ",
+      "fPrice": " 5,500,000 تومان",
+      "percent": " 5%",
+      "lPrice": " 5,780,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/6.webp",
+      "name": " هارد اس اس دی اکسترنال سیگیت مدل Seagate One Touch ظرفیت 1 ترابایت ",
+      "fPrice": " 5,300,000 تومان",
+      "percent": "  11%",
+      "lPrice": " 5,900,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/7.webp",
+      "name": " پرینتر اچ پی مدل Laser MFP 135a لیزری چندکاره ",
+      "fPrice": " 11,500,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 0 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec14/8.webp",
+      "name": " تبلت سامسونگ مدل Galaxy Tab S9 5G SM-X716B ظرفیت 256 گیگابایت رم 12 گیگابایت ",
+      "fPrice": " 56,000,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 0 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec14/9.webp",
+      "name": " ماوس بی سیم بیاند مدل BM-1910RF ",
+      "fPrice": " 860,000 تومان",
+      "percent": " 3%",
+      "lPrice": " 880,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec14/10.webp",
+      "name": "  مودم روتر 4G تی پی-لینک مدل Archer MR200 ",
+      "fPrice": " 4,170,000 تومان",
+      "percent": " 15%",
+      "lPrice": " 4,850,000 تومان",
+      "flag": true
+    }
+  ],
+  "fifteen": [
+    {
+      "img": "./media/body/sec15/1.webp",
+      "text": "بخاری برقی"
+    },
+    {
+      "img": "./media/body/sec15/2.webp",
+      "text": "جاروبرقی"
+    },
+    {
+      "img": "./media/body/sec15/3.webp",
+      "text": "آبمیوه گیری"
+    },
+    {
+      "img": "./media/body/sec15/4.webp",
+      "text": "کولر گازی"
+    },
+    {
+      "img": "./media/body/sec15/5.webp",
+      "text": "چایی ساز"
+    },
+    {
+      "img": "./media/body/sec15/6.webp",
+      "text": "اتو"
+    },
+    {
+      "img": "./media/body/sec15/7.webp",
+      "text": "پلوپز"
+    },
+    {
+      "img": "./media/body/sec15/8.webp",
+      "text": "ماکروویو"
+    },
+    {
+      "img": "./media/body/sec15/9.webp",
+      "text": "یخچال"
+    },
+    {
+      "img": "./media/body/sec15/10.webp",
+      "text": "قهوه ساز"
+    },
+    {
+      "img": "./media/body/sec15/11.webp",
+      "text": "چرخ گوشت"
+    },
+    {
+      "img": "./media/body/sec15/12.webp",
+      "text": "ماشین ظرف شویی"
+    },
+    {
+      "img": "./media/body/sec15/13.webp",
+      "text": "سشوار"
+    },
+    {
+      "img": "./media/body/sec15/14.webp",
+      "text": "ماشین لباسشویی"
+    }
+  ],
+  "secSixteen": [
+    {
+      "img": "./media/body/sec16/1.webp"
+    },
+    {
+      "img": "./media/body/sec16/2.webp"
+    }
+  ],
+  "swiperSeventeen": [
+    {
+      "img": "./media/body/sec17/1.webp",
+      "name": " هندزفری بی سیم هوآوی مدل FreeBuds SE 2 ",
+      "fPrice": " 1,689,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 1,689,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec17/2.webp",
+      "name": " پاوربانک سامسونگ مدل EB-P5300 ظرفیت 20000 میلی آمپر ",
+      "fPrice": " 2,149,000 تومان",
+      "percent": " 18%",
+      "lPrice": " 2,599,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec17/3.webp",
+      "name": " هندزفری بی سیم انکر مدل Soundcore R50i ",
+      "fPrice": " 819,000 تومان",
+      "percent": " 10%",
+      "lPrice": " 909,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec17/4.webp",
+      "name": " ساعت هوشمند میبرو لایت 2 Mibro Lite ",
+      "fPrice": " 2,794,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 2,794,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec17/5.webp",
+      "name": " هندزفری بی سیم کیو سی وای مدل  T13  ",
+      "fPrice": " 899,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 899,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec17/6.webp",
+      "name": " شارژر دیواری اپل مدل 20 وات دو شاخه ",
+      "fPrice": " 999,000 تومان",
+      "percent": " 17%",
+      "lPrice": " 1,200,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec17/7.webp",
+      "name": " ساعت هوشمند اچ کی مدل HK9 Ultra 2 Max ",
+      "fPrice": " 1,590,000 تومان",
+      "percent": " 7%",
+      "lPrice": " 1,700,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec17/8.webp",
+      "name": "  شارژر دیواری سامسونگ 25 وات مدل EP-TA800 دو پین ",
+      "fPrice": " 529,000 تومان",
+      "percent": " 30%",
+      "lPrice": " 749,000 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec17/9.webp",
+      "name": " پارتی باکس جی بی ال مدل partybox Stage 320 ",
+      "fPrice": " 30,989,000 تومان",
+      "percent": " 3%",
+      "lPrice": " 31,799,000 تومان",
+      "flag": true
+    }
+  ],
+  "swipeEeighteen": [
+    {
+      "img": "./media/body/sec18/1.webp",
+      "name": " اجاق گاز فردار اسنوا سری آدرینا مدل SGC5-31122 ",
+      "fPrice": " 17,500,000 تومان",
+      "percent": " 23%",
+      "lPrice": " 22,500,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/2.webp",
+      "name": " تلویزیون هوشمند دوو OLED بوسان BUSAN سایز 55 اینچ مدل DSL-55FO5000U ",
+      "fPrice": " 47,000,000 تومان",
+      "percent": " 21%",
+      "lPrice": " 59,000,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/3.webp",
+      "name": " ماشین ظرفشویی اسنوا 13 نفره مدل SDW-A11S ",
+      "fPrice": " 25,700,000 تومان",
+      "percent": " 18%",
+      "lPrice": " 31,000,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/4.webp",
+      "name": " ماشین لباسشویی پاکشوما 15.5 کیلویی مدل PTF 1504 iAJ ",
+      "fPrice": " 6,740,000 تومان",
+      "percent": " 11%",
+      "lPrice": " 7,500,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/5.webp",
+      "name": " تلویزیون LED تی سی ال مدل 55P655 سایز 55 اینچ ",
+      "fPrice": " 27,900,000 تومان",
+      "percent": " 0%",
+      "lPrice": " 0 تومان",
+      "flag": false
+    },
+    {
+      "img": "./media/body/sec18/6.webp",
+      "name": " اجاق گاز فردار اسنوا سری آدرینا مدل SGC5-3122N ",
+      "fPrice": " 17,500,000 تومان",
+      "percent": " 21%",
+      "lPrice": " 22,000,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/7.webp",
+      "name": " حالت دهنده مو رمینگتون مدل CB7A138 ",
+      "fPrice": " 4,000,000 تومان",
+      "percent": " 34%",
+      "lPrice": " 6,000,000 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/8.webp",
+      "name": " چای ساز پارس خزر مدل GARMNOOSH ",
+      "fPrice": " 4,550,000 تومان",
+      "percent": " 18%",
+      "lPrice": " 5,539,800 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/9.webp",
+      "name": "  جارو برقی پارس خزر مدل VC-2000W ",
+      "fPrice": " 5,530,000 تومان",
+      "percent": " 11%",
+      "lPrice": " 6,211,800 تومان",
+      "flag": true
+    },
+    {
+      "img": "./media/body/sec18/10.webp",
+      "name": " رادیاتور پنلی ایران رادیاتور مدل 60 ",
+      "fPrice": " 1,400,000 تومان",
+      "percent": " 34%",
+      "lPrice": " 2,100,000 تومان",
+      "flag": true
+    }
+  ],
+  "moreAccess": [
+    {
+      "text": "بلاگ"
+    },
+    {
+      "text": "خرید گوشی"
+    },
+    {
+      "text": "گوشی سامسونگ"
+    },
+    {
+      "text": "گوشی آیفون"
+    },
+    {
+      "text": "گوشی شیائومی"
+    },
+    {
+      "text": "گوشی پوکو"
+    },
+    {
+      "text": "مقایسه گوشی"
+    },
+    {
+      "text": "قیمت لپتاب"
+    },
+    {
+      "text": "هندزفری بلوتوثی"
+    },
+    {
+      "text": "لپتاب ایسوس"
+    }
+  ],
+
+  "footerMenu": [
+    {
+      "text": "دسترسی سریع",
+      "subMenu": [
+        {
+          "li": "بلاگ"
+        },
+        {
+          "li": "خرید گوشی"
+        },
+        {
+          "li": "گوشی سامسونگ"
+        },
+        {
+          "li": "گوشی آیفون"
+        },
+        {
+          "li": "گوشی شیائومی"
+        },
+        {
+          "li": "گوشی پوکو"
+        },
+        {
+          "li": "مقایسه گوشی"
+        },
+        {
+          "li": "قیمت لپتاب"
+        },
+        {
+          "li": "هندزفری بلوتوثی"
+        },
+        {
+          "li": "لپتاب ایسوس"
+        }
+      ]
+    },
+    {
+      "text": "پرفروش ترین محصولات",
+      "subMenu": [
+        {
+          "li": "گوشی A16"
+        },
+        {
+          "li": "گوشی Pura70"
+        },
+        {
+          "li": "گوشی 14t"
+        },
+        {
+          "li": "آیفون 16"
+        },
+        {
+          "li": "گوشی redmi note 14"
+        },
+        {
+          "li": "گوشی s25 سامسونگ"
+        },
+        {
+          "li": "ساعت هوشمند"
+        },
+        {
+          "li": "پرنیتر"
+        },
+        {
+          "li": "هارد اکسترنال"
+        },
+        {
+          "li": "لوازم خانگی"
+        }
+      ]
+    },
+    {
+      "text": "درباره ما",
+      "subMenu": [
+        {
+          "li": "تکنولایف در یک نگاه"
+        },
+        {
+          "li": "اهداف و تعهد های ما"
+        },
+        {
+          "li": "سوالات متداول"
+        },
+        {
+          "li": "فروشگاه های حضوری"
+        },
+        {
+          "li": "تماس با ما"
+        }
+      ]
+    },
+    {
+      "text": "پیش از خرید",
+      "subMenu": [
+        {
+          "li": "راهنمای خرید اقساطی"
+        },
+        {
+          "li": "خرید سازمانی"
+        },
+        {
+          "li": "راهنمای خرید از تکنولایف"
+        },
+        {
+          "li": "روش های خرید از تکنولایف"
+        },
+        {
+          "li": "ضمانت هفت روزه تکنولایف"
+        },
+        {
+          "li": "شیوه ها و هزینه ارسال"
+        }
+      ]
+    },
+    {
+      "text": "پس از خرید",
+      "subMenu": [
+        {
+          "li": "تضمین ریجستری"
+        },
+        {
+          "li": "رویه های بازگرداندن کالا"
+        },
+        {
+          "li": "سوالات متداول ریجستری"
+        },
+        {
+          "li": "رهگیری سفارش"
+        }
+      ]
+    },
+    {
+      "text": "قوانین و مقررات",
+      "subMenu": [
+        {
+          "li": "قوانین و مقررات"
+        },
+        {
+          "li": "حریم خصوصی کاربران"
+        },
+        {
+          "li": "از زبان مشتریان تکنولایف"
+        },
+        {
+          "li": "چرا تکنولایف"
+        }
+      ]
+    }
+  ]
+}

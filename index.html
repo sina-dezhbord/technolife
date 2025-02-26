@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css" />
+  </head>
+  <body dir="rtl">
+    <!-- هدر -->
+    <header class="sticky top-0 z-30 bg-[white] pb-5 ">
+      <!-- بنر -->
+      <div class="banner "></div>
+
+      <!-- لپتاب -->
+      <!-- سکشن اول -->
+      <div class="lg:flex hidden flex-col mt-2">
+        <div class="flex items-center justify-between">
+          <!-- سمت راست شامل لوگو و سرچ -->
+          <div class="flex items-center w-[652px] px-6 py-3 gap-4">
+            <div class="logoImg"></div>
+            <div
+              class="w-full flex items-center bg-[#F0F0F0] rounded-sm p-2 gap-3"
+            >
+              <i class="fas fa-search text-[20px]"></i>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="محصول، برند یا دسته مورد نظرتان را جستجو کنید"
+                class="w-full bg-transparent outline-none"
+              />
+            </div>
+          </div>
+
+          <!-- سمت چپ شمال ورود-ثبت‌نام و ایکون سبد خرید -->
+          <div class="w-[200px] flex items-center gap-3">
+            <button
+              class="flex border-[2px] rounded-md border-[#223C78] gap-3 px-2 py-1"
+            >
+              <p>ورود</p>
+              <p>|</p>
+              <p>ثبت‌نام</p>
+            </button>
+            <i
+              class="fas fa-shopping-cart text-[25px] border-[2px] border-[#D7DEE0] p-2 rounded-md cursor-pointer"
+            ></i>
+          </div>
+        </div>
+        <!-- پایان سکشن اول -->
+        <!-- شروع سکشن دوم -->
+        <div class="mt-2 divMenu">
+          
+        </div>
+        <!-- پایان سکشن دوم -->
+      </div>
+      <!-- پایان لپتاب -->
+      <!-- گوشی -->
+      <!-- بخش منو -->
+      <div class="lg:hidden flex flex-col px-5 gap-4 mt-6">
+        <!-- بخش دکمه منو و لوگو و ورود|ثبتنام -->
+        <div class="flex justify-between items-center">
+          <i class="fas fa-bars bars text-[24px] cursor-pointer"></i>
+          <div class="logoMobile"></div>
+          <button class="flex items-center gap-3">
+            <p class="text-[20px] pb-[7px]">ورود</p>
+            <i class="fas fa-sign-in-alt"></i>
+          </button>
+        </div>
+        <!-- بخش جست و جو و سبد خرید -->
+        <div class="flex justify-between items-center gap-5">
+          <div class="bg-[#F0F0F0] p-3 w-[80%] rounded-md">
+            <i class="fas fas fa-search"></i>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="جستجو..."
+              class="w-[90%] bg-transparent outline-none"
+            />
+          </div>
+          <i class="fas fa-shopping-cart text-[24px]"></i>
+        </div>
+        <div
+          class="bgMenu w-full h-full bg-[black] fixed top-0 right-[-100%] z-10 opacity-[80%] flex"
+        ></div>
+        <!-- اتمام منو -->
+        <!-- زیر منو -->
+        <div
+          class="myMenu w-2/3 h-full bg-[white] fixed top-0 right-[-100%] z-20 overflow-x-auto transition-all ease-linear duration-300 pb-14"
+        >
+          <!-- بستن و لوگو -->
+          <div class="flex justify-between p-8 items-center">
+            <i class="fa-solid fa-x cursor-pointer"></i>
+            <div class="logoMenu"></div>
+          </div>
+          <!-- زیر منو بخش اول -->
+          <ul class="flex flex-col mbMenu">
+            <div class="partOne flex flex-col gap-4"></div>
+            <div class="partTwo flex flex-col gap-4 menuMobile pt-4"></div>
+          </ul>
+          <!-- اتمام زیر منو -->
+        </div>
+      </div>
+      <!-- پس زمینه زیر منو -->
+      <div
+        class="bgMenu w-full h-full bg-[black] absolute top-0 right-[-100%] z-10 opacity-[80%] lg:hidden"
+      ></div>
+    </header>
+    <!-- سکشن اصلی -->
+    <section class="main flex flex-col gap-4">
+      <!-- سوییپر اول اتو پلی-->
+      <section class="one">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next after:hidden">
+            <i
+              class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+            ></i>
+          </div>
+          <div class="swiper-button-prev after:hidden">
+            <i
+              class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+            ></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- سوییپر دوم دسته بندی کالا ها-->
+      <section class="two kg:px-[32px]">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next after:hidden">
+            <i
+              class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+            ></i>
+          </div>
+          <div class="swiper-button-prev after:hidden">
+            <i
+              class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+            ></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- سکشن سوم -->
+      <div class="lg:px-[32px]">
+        <!-- بخش بالایی سوییپر -->
+        <section
+          class="three border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div
+            class="flex justify-between bg-[#A2191F] p-4 rounded-md text-white"
+          >
+            <p class="font-extrabold lg:text-[15px] text-[20px]">تکنو آف</p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[15px] text-[20px]"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر سوم تکنو آف-->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- سه تا عکس  -->
+      <section
+        class="four flex justify-between flex-col lg:flex-row p-[32px] items-center gap-3"
+      ></section>
+
+      <div class="lg:px-[32px]">
+        <!-- پرچم داران هوشمند -->
+        <section
+          class="five border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div class="flex justify-between p-4 rounded-md">
+            <p class="font-extrabold lg:text-[22px] text-[15px]">
+              پرچمداران هوشمند
+            </p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[24px] text-[18px] gap-2 text-[#223C78]"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر پرچمداران هوشمند -->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="six flex flex-col gap-8"></section>
+
+      <!-- برترین موبای ها -->
+      <section class="seven flex flex-col gap-5 px-[32px]"></section>
+      <!-- سکشن مخصوص پیسی گیف -->
+      <section
+        class="pcGif lg:flex hidden w-full px-[32px] py-[32px]"
+      ></section>
+
+      <div class="lg:px-[32px]">
+        <!-- پرچم داران هوشمند -->
+        <section
+          class="seven border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div class="flex justify-between p-4 rounded-md">
+            <p class="font-extrabold lg:text-[22px] text-[15px]">
+              لپتاب ها در تکنولایف
+            </p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[24px] text-[18px] gap-2 text-[#223C78]"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر پرچمداران هوشمند -->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- برترین های لپتاب -->
+      <section class="eight flex flex-col gap-8"></section>
+
+      <!-- عکسای تبلیغاتی -->
+      <section
+        class="nine flex justify-between flex-col lg:flex-row p-[32px] items-center gap-3"
+      ></section>
+
+      <!-- گوشی بر اساس قیمت و ویژگی -->
+      <section class="ten lg:flex items-center gap-4 lg:px-[32px]">
+        <div class="flex flex-col flex-1 border gap-8">
+          <p class="text-[22px] px-8 pt-8">گوشی بر اساس قیمت</p>
+          <div
+            class="grid grid-cols-12 px-8 pb-8 gap-3 text-center secTenOne"
+          ></div>
+        </div>
+        <div class="flex flex-col flex-1 border gap-8 mt-4 lg:mt-0">
+          <p class="text-[22px] px-8 pt-8">گوشی بر اساس ویژگی</p>
+          <div
+            class="grid grid-cols-12 px-8 pb-8 gap-3 text-center secTenTwo"
+          ></div>
+        </div>
+      </section>
+
+      <!-- برترین های هندزفری -->
+      <section class="eleven flex flex-col gap-5 px-[32px]"></section>
+
+      <!-- تبلیغات لپتاب -->
+      <section
+        class="twelve flex justify-between flex-col lg:flex-row p-[32px] items-center gap-3"
+      ></section>
+
+      <!-- برند های منتخب -->
+      <section class="thirteen lg:px-[32px]">
+        <section
+          class="flex lg:flex-row flex-col rounded-[20px] border-2 overflow-hidden"
+        >
+          <div
+            class="flex lg:flex-col flex-row justify-center items-center gap-[6px] lg:rounded-r-[18px] rounded-t-[18px] lg:rounded-tl-[0px] text-white bg-[#08669E] px-[42px] pb-[26px] pt-8"
+          >
+            <i class="fa-solid fa-certificate"></i>
+            <p class="text-nowrap">برند های منتخب</p>
+          </div>
+          <div class="overflow-hidden">
+            <div class="swiper mySwiper4">
+              <div class="swiper-wrapper swiperThirteen"></div>
+              <div class="swiper-button-next after:hidden">
+                <i
+                  class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+                ></i>
+              </div>
+              <div class="swiper-button-prev after:hidden">
+                <i
+                  class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- کامپیوتر و تجهیزات -->
+      <div class="lg:px-[32px]">
+        <!--تیتر کامپیوتر و تجهیزات -->
+        <section
+          class="fourteen border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div class="flex justify-between p-4 rounded-md">
+            <p class="font-extrabold lg:text-[22px] text-[15px]">
+              کامپیوتر و تجهیزات
+            </p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[24px] text-[18px] gap-2 text-[#223C78]"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر کامپیوتر و تجهیزات -->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="lg:px-[32px]">
+        <section class="fifteen border-b border px-4 pb-8 pt-6">
+          <div class="px-[32px]">
+            <p>
+              لوازم خانگی
+              <span class="text-[12px]" style="text-shadow: 2px 2px 2px black"
+                >خانه و آشپزخانه</span
+              >
+            </p>
+          </div>
+          <div class="grid w-full grid-cols-3 lg:grid-cols-5 p-[32px]"></div>
+        </section>
+      </div>
+
+      <section
+        class="sixteen flex justify-between flex-col lg:flex-row items-center gap-3"
+      ></section>
+
+      <div class="lg:px-[32px]">
+        <!--تیتر لوازم جانبی منتخب -->
+        <section
+          class="seventeen border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div class="flex justify-between p-4 rounded-md">
+            <p class="font-extrabold lg:text-[22px] text-[15px]">
+              لوازم جانبی منتخب
+            </p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[24px] text-[18px] gap-2 text-[#223C78] opacity-0"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر لوازم جانبی منتخب -->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="lg:px-[32px]">
+        <!--تیتر لوازم جانبی منتخب -->
+        <section
+          class="eighteen border-[2px] lg:p-4 py-4 w-full flex flex-col gap-5 mx-auto rounded-md"
+        >
+          <div class="flex justify-between p-4 rounded-md">
+            <p class="font-extrabold lg:text-[22px] text-[15px]">
+              لوازم جانبی منتخب
+            </p>
+            <div
+              class="flex items-center cursor-pointer lg:text-[24px] text-[18px] gap-2 text-[#223C78] opacity-0"
+            >
+              <p>نمایش همه</p>
+              <i class="fas fa-angle-left"></i>
+            </div>
+          </div>
+          <!-- سوییپر لوازم جانبی منتخب -->
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next after:hidden">
+              <i
+                class="fa-solid fa-angle-left h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+            <div class="swiper-button-prev after:hidden">
+              <i
+                class="fa-solid fa-chevron-right h-[25px] w-[25px] bg-white text-[#333333] flex items-center justify-center rounded-full"
+              ></i>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="m-2 mt-8 overflow-hidden rounded-[14px] myBgStyle">
+      <div class="mobile flex flex-col">
+        <div
+          class="flex flex-col lg:flex-row-reverse lg:py-[72px] items-center lg:justify-between px-8 py-1 gap-7 border-b"
+        >
+          <a
+            href="#"
+            class="bg-white w-full lg:w-[180px] rounded-md text-center py-2"
+            target="_top"
+            >بازگشت به بالا</a
+          >
+          <img
+            src="./media/body/footer/1.svg"
+            alt=""
+            class="w-[108px] lg:w-[180px]"
+          />
+
+          <div class="lg:hidden">
+            <div class="flex flex-col text-white items-center gap-3">
+              <i class="fas fa-phone"></i>
+              <p>تلفن :47708000-021-91077500-021</p>
+            </div>
+            <div class="flex flex-col text-white items-center gap-2">
+              <i class="fa-regular fa-envelope"></i>
+              <p>ایمیل : info@technolife.ir</p>
+            </div>
+          </div>
+        </div>
+        <div class="myFooter"></div>
+      </div>
+    </footer>
+
+    
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

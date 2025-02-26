@@ -1,0 +1,217 @@
+@font-face {
+  font-family: Iran;
+  src: url(../font/IRANSansX-Medium.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Iran;
+  scroll-behavior: smooth;
+}
+
+section.one .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.one .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.one .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.two .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.two .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.two .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.three .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.three .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.three .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.five .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.five .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.five .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.seven .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.seven .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.seven .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.thirteen .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.thirteen .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.thirteen .swiper-slide img {
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+section.fourteen .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.fourteen .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.fourteen .swiper-slide img {
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+section.seventeen .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.seventeen .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.seventeen .swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+section.eighteen .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+section.eighteen .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.eighteen .swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.myBgStyle {
+  background: rgb(23, 62, 120);
+  background: linear-gradient(
+    287deg,
+    rgba(23, 62, 120, 1) 0%,
+    rgba(12, 89, 146, 1) 50%,
+    rgba(0, 120, 176, 1) 100%
+  );
+}
+
+.shadow-left-sm {
+  box-shadow: -18px 9px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -18px 9px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -18px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
